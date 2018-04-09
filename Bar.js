@@ -150,6 +150,8 @@ export default class ProgressBar extends Component {
       borderRadius,
       overflow: 'hidden',
       backgroundColor: unfilledColor,
+      justifyContent:'center',
+      alignItems:'center'
     };
     const progressStyle = {
       backgroundColor: color,
